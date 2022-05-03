@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+/*font-family: 'Merriweather', serif;
+font-family: 'Abril Fatface', cursive;*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #262626;
+    color: wheat;
+    text-align: center;
+}
+
+#headline {
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 1em;
+}
+
+#contentHeadline{
+    font-family: 'Merriweather';
+    margin-top: 1.5em;
+    margin-bottom: 4.5em;
+}
+
+.content {
+    font-family: 'Merriweather';
+}
+
+.content ul{
+    list-style-type: none;
+}
+
+.content ul a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.content ul li {
+    margin-top: .7em;
+}
+
+.content ul li a:hover {
+    font-size: 20px;
+    transition: .25s;
+    color: white;
+}
+
+#impressum {
+    margin-top: 2em;
+}
